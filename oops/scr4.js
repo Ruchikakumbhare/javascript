@@ -12,7 +12,7 @@ for(let key in data){
 }
 // // map -
 // // keys - values
-// // keys can be any different datatype   using map 
+// // keys can be any different datatype using map 
 
 //.............................................map........................................
 // ............ get() set() has(),clear(),delete(),keys(),values(),entries()
