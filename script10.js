@@ -14,8 +14,8 @@ console.log(b)
 console.log(c)
 console.log(d)
 
-//object inside objects
 
+//object inside objects
 let info1 = {
     data:{
         fname : 'Riya',

@@ -15,13 +15,10 @@ class value {
 // console.log(num)
 
 let list =[
-  new value['mangesh','kale',22],
-  new value['ankit','gire',23],
+  new value('mangesh','kale',22),
+  new value('ankit','gire',23),
 ]
 
-
-
-
-// list.forEach(function(el){
-//     console.log(el.fname)
-// })
+list.forEach(function(el){
+  console.log(el.fname)
+})
