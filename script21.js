@@ -1,7 +1,7 @@
 
 //.............................................................object literal
  //program1
-let ruchi = {
+ let ruchi = {
     fname : "ruchika",
     lname : "kumbhare",
     age :22,

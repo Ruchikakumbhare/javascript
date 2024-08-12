@@ -88,18 +88,19 @@ console.log(li)
 li.init("real","verma")
 li.displayName()
 
-// let obj = {
-//     init:function(fn,ln,ag){
-//         this.firstName = fn 
-//         this.lastName = ln 
-//         this.age = ag
-//     },
-//     displayName:function(){
-//         console.log(this.firstName + this.lastName)
-//     }
-// }
+class one{
+     constructor(fn,ln,ag,ct){
+        this.fname = fn
+        this.lname =ln
+        this.age = ag
+        this.city = ct
+     }
+     displayName(){
+        console.log(this.fname + this.lname)
+     }
+}
 
-// let amol5 = Object.create(obj)
-// console.log(amol5)
-// amol5.init("amol5","rao5",34)
-// amol5.displayName()
+let one1 = new one('ruchika','kumbhare',22,'nagpur')
+console.log(one1.fname)
+console.log(one1.lname)
+one1.displayName()
