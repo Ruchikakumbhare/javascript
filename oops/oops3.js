@@ -72,31 +72,3 @@ class Teacher1 extends student1{
 let n1 = new Teacher1('riya','parate',20,10000)
 console.log(n1)     //Teacher { fname: 'riya', lname: 'parate', age: 20, sal: 10000 }
 
-
-// // program 3
-// // multi-level 
-
-// // program 4
-// // herarchical
-
-// // 8.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // basic 
-// // let amol = new Student("chinmay","despande")
-// // console.log(amol.firstName)
-// // console.log(amol.lastName)
-// // amol.displayName()
