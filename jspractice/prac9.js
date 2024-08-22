@@ -53,3 +53,4 @@ let x = new daughter('sarsvati','pimpre','reena','ridhi')
 
 x.display()
 x.display_m()
+
