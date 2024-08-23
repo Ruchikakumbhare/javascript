@@ -1,9 +1,9 @@
 //polymorphism
-//same class ,same method ,diff signature ----------->overloading
+//same class ,same method ,diff signature ----------->
 //different class,same method,same signature -------->overriding
 
 //Program1
-//same class ,same method ,diff signature ----------->overloading
+
 class calcy1{
     addition(a=undefined,b=undefined,c=undefined,d=undefined) {
         if(a != undefined && b!=undefined && c!=undefined && d!=undefined){
@@ -65,6 +65,7 @@ a1.loan()//loan -Kotak
 //Program4
 
 class human{
+
     talk(){
         console.log("hello")
     }
@@ -81,10 +82,10 @@ class dog{
 }
 function call_talk(obj){
  if(obj.talk){
-    obj.talk();
+    obj.talk()
  }
  else if(obj.bark){
-    obj.bark();
+    obj.bark()
  }
  else{
     console.log("object doesn't know how to talk or bark!")
@@ -98,6 +99,45 @@ call_talk(y)
 call_talk(z)
 
 
+//program5
+class human1{
+    talk(){
+         console.log("hello Hii")
+    }
+}
+class duck1{
+    talk(){
+        console.log("Quack!!")
+    }
+}
+class Dog1{
+    bark(){
+        console.log("bhowww")
+    }
+}
+class cat{
+    song(){
+        console.log("meooww")
+    }
+}
+function call_talk(obj){
+   if(obj.talk){
+    obj.talk()
+   }
+   else if(obj.bark){
+    obj.bark()
+   }
+   else{
+    console.log("This animals object not found ")
+   }
+}
 
-
+let c = new human1()
+let d = new duck1()
+let e = new Dog1()
+let f = new cat()
+call_talk(c)
+call_talk(d)
+call_talk(e)
+call_talk(f)
   
