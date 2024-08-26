@@ -1,5 +1,5 @@
 
-//-------------Program1------------------
+//-------------Program1------------------Not correct way
 class calcy{
       multiplication(x,y){
         console.log(x*y)
@@ -15,7 +15,7 @@ class calcy{
 let a1 = new calcy()
 a1.multiplication(1,1)     //NaN
 a1.multiplication(2,2,2)   //NaN
-a1.multiplication(2,2,3,2) //NaN
+a1.multiplication(2,2,3,2) //24
 
 //---------------Program2--------------------
 class calcy1{
