@@ -201,20 +201,6 @@ console.log(g)//55
 
 
 
-// // const h = 100
-// // {
-// //     h = 999
-// //     console.log(h) // 999
-// // }
-// // console.log(h) // 999
-
-// // program 4
-// const h = 100
-// {
-//     const h = 999
-//     console.log(h)  // 999
-// }
-// console.log(h)  // 100
 
 
 
