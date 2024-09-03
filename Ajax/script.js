@@ -59,5 +59,3 @@ function getInfo() {
 }
 getInfo()
 
-// // promises()
-// // asyn code ---- sync  ----  without call back hell
