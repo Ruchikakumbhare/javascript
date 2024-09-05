@@ -65,7 +65,7 @@ let x1=new Promise(function(resolve,reject){     //promise created
     }
 })
 
-x1.then(function(str){
+x1.then(function(str){ //----------->consuming
     console.log(str)
 },function(str){
     console.log(str)
@@ -126,7 +126,7 @@ new Promise(function(resolve,reject){
 .then(function(str){
     console.log(str)
 })
-.catch(function(str){
+.catch(function(str){   
     console.log(str)
 })
 .finally(function(){

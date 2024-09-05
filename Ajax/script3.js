@@ -125,7 +125,7 @@ p4.then(function(d){
     return d[4]
 })
 .catch(function(d){
-      console.log("nott")
+      console.log("failed")
 })
 .finally(function(d){
     console.log("executed")
