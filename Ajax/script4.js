@@ -123,13 +123,4 @@ async function getinfo11() {
 }
 getinfo11()
 
-// async function getInfo2(){
-//     let a = await userCreate()
-//     console.log(a)
-//     let b = await getId()
-//     console.log(b)
-//     let c = await getInfo()
-//     console.log(c)
-// }
-// getInfo2()
 
