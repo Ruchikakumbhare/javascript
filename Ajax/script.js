@@ -5,14 +5,14 @@
 // function substraction2(){
 //     console.log('sub 2')
 // }
-// // substraction()
-// // substraction2()
+
 // substraction2()
 // substraction()
 
 
 //----------------------- program 2
 //function setTimeout --->it will be print after seconds
+
 // function add(){
 //     setTimeout(function(){
 //          console.log('add 1')

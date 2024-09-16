@@ -119,6 +119,7 @@ q1.then(function(str){
 .catch(function(str2){
     console.log(str2)
 })
+//---------------------------------------------------------------------------
 
 
 
@@ -126,27 +127,6 @@ q1.then(function(str){
 
 
 
-
-// // //4th
-
-// let pro= new Promise(function(resolve,reject){
-//         let a1 = 10
-//         let a2 = 10
-//         if( a1==a2){
-//             resolve("hello")
-//         }
-//         else{
-//             reject("bye")
-//         }
-//     })
-// pro.
-// then(function(str){
-//     console.log(str)
-//     return [11,22,33]
-// })
-// .then(function(arr){
-//     console.log(arr[0])
-// })
 
 
 

@@ -38,98 +38,98 @@
 // async sync 
 // async ----- sync ---- 
 //call back hell   ( not reusable and tightly coupled)
-function addd(){
-        setTimeout(function(){
-            console.log("created user"),
-            setTimeout(function(){
-                console.log("creat id"),
-                setTimeout(function(){
-                    console.log("get info")
-             },1000)   
-            },2000)  
-        },3000)
-}
-addd()
-//-------------------------------------------------------------------------
-//----------------program 5
-// async sync ------>promise
+// function addd(){
+//         setTimeout(function(){
+//             console.log("created user"),
+//             setTimeout(function(){
+//                 console.log("creat id"),
+//                 setTimeout(function(){
+//                     console.log("get info")
+//              },1000)   
+//             },2000)  
+//         },3000)
+// }
+// addd()
+// //-------------------------------------------------------------------------
+// //----------------program 5
+// // async sync ------>promise
 
-let x1=new Promise(function(resolve,reject){     //promise created
-    let a = 10 
-    let b = 20
-    if(a==b){
-        resolve("hyee i am resolve")
-    }
-    else{
-        reject("bye i am rejected")
-    }
-})
+// let x1=new Promise(function(resolve,reject){     //promise created
+//     let a = 10 
+//     let b = 20
+//     if(a==b){
+//         resolve("hyee i am resolve")
+//     }
+//     else{
+//         reject("bye i am rejected")
+//     }
+// })
 
-x1.then(function(str){ //----------->consuming
-    console.log(str)
-},function(str){
-    console.log(str)
-})
+// x1.then(function(str){ //----------->consuming
+//     console.log(str)
+// },function(str){
+//     console.log(str)
+// })
 
-//------------------------------------------------------------------------
-//----------------program 6
-let pro1=new Promise(function(resolve,reject){
-       let a1 = 100
-       let b1 = 100
-       if(a1==b1){
-        resolve ("yes")
-       }
-       else{
-        reject("No")
-       }
-})
+// //------------------------------------------------------------------------
+// //----------------program 6
+// let pro1=new Promise(function(resolve,reject){
+//        let a1 = 100
+//        let b1 = 100
+//        if(a1==b1){
+//         resolve ("yes")
+//        }
+//        else{
+//         reject("No")
+//        }
+// })
 
-pro1.then(function(str){
-    console.log(str)
-},function(Str){
-    console.log(str)
-})
+// pro1.then(function(str){
+//     console.log(str)
+// },function(Str){
+//     console.log(str)
+// })
 
-//------------------------------------------------------------------------
-//----------------program 7 
+// //------------------------------------------------------------------------
+// //----------------program 7 
 
-let x2=new Promise(function(resolve,reject){
-       let fname = "Ruchika"
-       if(fname.length >=7){
-        resolve([1,2,3])
-       }
-       else{
-        reject([9,8,7])
-       }
+// let x2=new Promise(function(resolve,reject){
+//        let fname = "Ruchika"
+//        if(fname.length >=7){
+//         resolve([1,2,3])
+//        }
+//        else{
+//         reject([9,8,7])
+//        }
 
-})
+// })
 
-x2.then(function(str){
-    console.log(str[0])
-},function(str){
-  console.log(str[1])
-})
+// x2.then(function(str){
+//     console.log(str[0])
+// },function(str){
+//   console.log(str[1])
+// })
 
-//---------------------------------------------------------------
-//----------------program 8   .then(),.catch(),finally()
-new Promise(function(resolve,reject){
-    let a3 = 10
-    let a4 = 2
-    if(a3==a4){
-        resolve("heeloo")
-    }
-    else{
-        reject("bye")
-    }
-})
+// //---------------------------------------------------------------
+// //----------------program 8   .then(),.catch(),finally()
+// new Promise(function(resolve,reject){
+//     let a3 = 10
+//     let a4 = 2
+//     if(a3==a4){
+//         resolve("heeloo")
+//     }
+//     else{
+//         reject("bye")
+//     }
+// })
 
-.then(function(str){
-    console.log(str)
-})
-.catch(function(str){   
-    console.log(str)
-})
-.finally(function(){
-    console.log("i will always execute")
-})
+// .then(function(str){
+//     console.log(str)
+// })
+// .catch(function(str){   
+//     console.log(str)
+// })
+// .finally(function(){
+//     console.log("i will always execute")
+// })
 
