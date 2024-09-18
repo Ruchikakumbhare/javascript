@@ -148,36 +148,37 @@
 //==========================================================================
 //program9
 
-function userCreate(){
-    return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            resolve('create user')
-        },3000)
-    })
-}
+// function userCreate(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(function(){
+//             resolve('create user')
+//         },3000)
+//     })
+// }
 
-function getId(){
-    return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            resolve("getId")
-        },2000)
-    })
-}
+// function getId(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(function(){
+//             resolve("getId")
+//         },2000)
+//     })
+// }
 
-function getInfo(){
-    return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            resolve("getInfo")
-        },1000)
-    })
-}
+// function getInfo(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(function(){
+//             resolve("getInfo")
+//         },1000)
+//     })
+// }
 
-async function get() {
-    let a = await userCreate()
-    console.log(a)
-    let b = await getId()
-    console.log(b)
-    let c = await getInfo()
-    console.log(c)
-}
-get()
+// async function get() {
+//     let a = await userCreate()
+//     console.log(a)
+//     let b = await getId()
+//     console.log(b)
+//     let c = await getInfo()
+//     console.log(c)
+// }
+// get()
+//============================================================================================
