@@ -121,35 +121,3 @@ async function PromiseAny() {
     console.log(pro)
 }
 PromiseAny()
-// // program 4
-
-// proOne = new Promise(function(resolve,reject){
-//     setTimeout(() => {
-//         resolve('user created successfully...1')
-//     }, 2000);
-// })
-
-// proTwo = new Promise(function(resolve,reject){
-//     setTimeout(() => {
-//         resolve('user created successfully...2')
-//     }, 1000);
-// })
-
-// proThree = new Promise(function(resolve,reject){
-//     setTimeout(() => {
-//         resolve('user created successfully...3')
-//     }, 4000);
-// })
-
-// proFour = new Promise(function(resolve,reject){
-//     setTimeout(() => {
-//         reject('user created successfully...4')
-//     }, 1000);
-// })
-
-
-// async function PromiseAny(){
-//     let val = await Promise.any([proOne,proTwo,proThree,proFour])
-//     console.log(val)
-// }
-// PromiseAny()
