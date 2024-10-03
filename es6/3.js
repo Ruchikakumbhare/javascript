@@ -22,22 +22,22 @@
 // console.log(val4)    //undefined
 
 // let val6 = 3 && 'ruchi'
-// console.log(val6)    //undefined
+// console.log(val6)    //ruchi
 
 
 //-------------------------program2
-//|| -->1 st value true hogye to short circuit krdenga
-let val1 = 0 || 2<1
-console.log(val1)  //false
+// || -->1 st value true hogye to short circuit krdenga
+// let val1 = 0 || 2<1
+// console.log(val1)  //false
 
-let val2 = 3>2 || 2<1
-console.log(val2)   //true
+// let val2 = 3>2 || 2<1
+// console.log(val2)   //true
 
-let val3 = " " || 2<1
-console.log(val3)        //space 
+// let val3 = " " || 2<1
+// console.log(val3)        //space 
 
-let val4 = 'ruchi'|| 2<1
-console.log(val4)        //true
+// let val4 = 'ruchi'|| 2<1
+// console.log(val4)        //true
 
 //-------------------------program3
 // null coalescing
@@ -52,14 +52,14 @@ console.log(val4)        //true
 //------------------------------------------
 
 //null or undefined ??
-let a  = ' '?? 'rupal'
-console.log(a)
-let a1  = null?? 'rupal'
-console.log(a1)            //rupal
-let a2 = undefined ?? 'rupali'
-console.log(a2)
-let a3  = 'riya '?? 'rupal'
-console.log(a3)
+// let a  = ' '?? 'rupal'
+// console.log(a)
+// let a1  = null?? 'rupal'
+// console.log(a1)            //rupal
+// let a2 = undefined ?? 'rupali'
+// console.log(a2)
+// let a3  = 'riya '?? 'rupal'
+// console.log(a3)
 
 //-------------------------program4
 // optional parameter
@@ -73,7 +73,7 @@ let emp = {
     },
     father:'sonu'
 }
-// console.log(emp.parent?.mothe) undefined
+//console.log(emp.parent?.mothe) undefined
 //console.log(emp.paren.mname) //Cannot read properties of undefined (reading 'mname')
 console.log(emp.parent?.lname) //kapoor
 
